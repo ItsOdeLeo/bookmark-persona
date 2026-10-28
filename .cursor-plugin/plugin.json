@@ -1,0 +1,13 @@
+{
+  "name": "bookmark-persona",
+  "description": "Reads your X posts vs. your bookmarks and likes, and turns them into a share card with two pets: the persona you show in public and the one hiding in your saves. Needs the X plugin. Just for fun.",
+  "version": "1.0.0",
+  "author": {
+    "name": "OdeLeo"
+  },
+  "homepage": "https://x.ai/bot/n-19X3xySPROJG9JTLWAl",
+  "repository": "https://github.com/ItsOdeLeo/bookmark-persona",
+  "license": "MIT",
+  "keywords": ["x", "bookmarks", "likes", "persona", "share-card", "grok-bot"],
+  "logo": "assets/logo.png"
+}

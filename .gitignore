@@ -1,0 +1,5 @@
+# Private: launch kit, personal cards and test notes
+launch/
+tests/
+
+.DS_Store

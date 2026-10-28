@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=1080">
+<title>Bookmark Persona · All 16</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@500;600;700;800&family=Noto+Sans+SC:wght@500;700;900&display=block" rel="stylesheet">
+<style>
+  :root { --ink: #16161A; --paper: #F6F5F2; }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html, body { width: 1080px; height: 1350px; overflow: hidden; background: var(--paper); }
+  body { font-family: 'Inter Tight', 'Noto Sans SC', system-ui, sans-serif; color: var(--ink); -webkit-font-smoothing: antialiased; }
+  .page { padding: 56px 56px 40px; height: 100%; display: flex; flex-direction: column; }
+  .kicker { font-size: 18px; font-weight: 700; letter-spacing: .14em; text-transform: uppercase; opacity: .5; }
+  h1 { font-size: 60px; font-weight: 800; letter-spacing: -.03em; line-height: 1.02; margin-top: 12px; }
+  .grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 14px; margin-top: 30px; flex: 1; }
+  .cell { border-radius: 30px; background: var(--panel); display: flex; flex-direction: column; align-items: center; justify-content: center; padding: 4px 8px 14px; }
+  .cell svg { width: 180px; height: 180px; display: block; }
+  .type { font-size: 34px; font-weight: 800; letter-spacing: -.02em; line-height: 1; margin-top: -8px; }
+  .nick { font-size: 16px; font-weight: 600; margin-top: 6px; text-align: center; line-height: 1.15; opacity: .7; }
+  footer { margin-top: 20px; display: flex; justify-content: space-between; font-size: 18px; font-weight: 600; opacity: .55; }
+  html[lang="zh"] h1 { letter-spacing: 0; }
+  html[lang="zh"] .nick { font-size: 18px; }
+</style>
+</head>
+<body>
+<div class="page">
+  <div class="kicker">Bookmark Persona</div>
+  <h1 id="title"></h1>
+  <div class="grid" id="grid"></div>
+  <footer><div id="note"></div><div id="by"></div></footer>
+</div>
+<script src="persona.js"></script>
+<script>
+  const zh = location.hash === '#zh';
+  document.documentElement.lang = zh ? 'zh' : 'en';
+  document.getElementById('title').textContent = zh ? '你的书签里，藏着哪一只？' : 'Which one is hiding in your bookmarks?';
+  document.getElementById('note').textContent = zh ? '仅供娱乐' : 'Just for fun';
+  document.getElementById('by').textContent = zh ? 'Grok Bot 模板 by @ItsOdeLeo' : 'Grok Bot template by @ItsOdeLeo';
+  const grid = document.getElementById('grid');
+  for (const t of Persona.ORDER) {
+    const cell = document.createElement('div');
+    cell.className = 'cell';
+    cell.style.setProperty('--panel', Persona.palette(t).panel);
+    cell.innerHTML = Persona.creatureSVG(t);
+    const type = document.createElement('div');
+    type.className = 'type';
+    type.textContent = t;
+    const nick = document.createElement('div');
+    nick.className = 'nick';
+    nick.textContent = Persona.TYPES[t][zh ? 'zh' : 'en'];
+    cell.append(type, nick);
+    grid.append(cell);
+  }
+  document.fonts.ready.then(() => { document.documentElement.dataset.ready = '1'; });
+</script>
+</body>
+</html>
