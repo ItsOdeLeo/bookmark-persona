@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="196" height="36" viewBox="0 0 196 36" role="img" aria-label="License: MIT code, CC BY-NC 4.0 art">
+  <rect x="0.75" y="0.75" width="194.5" height="34.5" rx="17.25" fill="#FFFFFF" stroke="#16161A" stroke-opacity=".16" stroke-width="1.5"/>
+  <rect x="78" y="5" width="113" height="26" rx="13" fill="#E4E4E8"/>
+  <g font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC','Microsoft YaHei',Arial,sans-serif" fill="#16161A">
+    <text x="15" y="22.5" font-size="11.5" font-weight="800" letter-spacing="1.3" fill-opacity=".6">LICENSE</text>
+    <text x="134.5" y="22.5" text-anchor="middle" font-size="12.5" font-weight="800">MIT · CC BY-NC</text>
+  </g>
+</svg>

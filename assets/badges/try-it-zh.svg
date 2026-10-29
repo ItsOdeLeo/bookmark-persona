@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="276" height="56" viewBox="0 0 276 56" role="img" aria-label="在 Grok Bot 里试试">
+  <rect x="0.75" y="0.75" width="274.5" height="54.5" rx="27.25" fill="#16161A" stroke="#FFFFFF" stroke-opacity=".2" stroke-width="1.5"/>
+  <rect x="7" y="7" width="92" height="42" rx="21" fill="#FF4F8B"/>
+  <g font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC','Microsoft YaHei',Arial,sans-serif" fill="#FFFFFF">
+    <text x="53" y="34" text-anchor="middle" font-size="17" font-weight="800" letter-spacing="1">试试 →</text>
+    <text x="115" y="34.5" font-size="18" font-weight="700">在 Grok Bot 打开</text>
+  </g>
+</svg>
