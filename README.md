@@ -1,5 +1,7 @@
 # Bookmark Persona
 
+English | [中文](README.zh-CN.md)
+
 A Grok Bot template that reads your X account and makes a share card: the persona you show in public (your posts) vs. the one hiding in your saves (your bookmarks and likes).
 
 **Try it:** https://x.ai/bot/n-19X3xySPROJG9JTLWAl (opens in the Grok Bot app)
