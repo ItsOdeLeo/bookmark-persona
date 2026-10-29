@@ -13,7 +13,7 @@
 <sub>在你自己的 Grok Bot 里运行 · 需要连上 X 插件 · 数据不离开你的 Bot</sub></p>
 
 <p align="center">
-  <a href="#许可"><img src="assets/badges/license.svg" alt="许可：代码 MIT，宠物设计 CC BY-NC 4.0" /></a>
+  <a href="#许可"><img src="assets/badges/license.svg" alt="许可：MIT" /></a>
   <a href="https://x.com/ItsOdeLeo"><img src="assets/badges/follow-x-zh.svg" alt="在 X 上关注 欧的Leo (@ItsOdeLeo)" /></a>
   <a href="https://xhslink.com/m/18bjTTf180W"><img src="assets/badges/follow-xiaohongshu.svg" alt="小红书关注 欧的Leo，ID：ItsOdeLeo" /></a>
 </p>
@@ -97,8 +97,7 @@ Grok Bot 模板只能带文字，所以 Bot 每次运行都会从一个[公开 g
 
 ## 许可
 
-- 代码：MIT，见 [`LICENSE`](LICENSE)。
-- 16 只宠物的设计：CC BY-NC 4.0，见 [`LICENSE-ART.md`](LICENSE-ART.md)。
+MIT，见 [`LICENSE`](LICENSE)。代码和 16 只宠物的设计都适用。
 
 四个字母只是借用的说法，昵称和图都是原创。
 

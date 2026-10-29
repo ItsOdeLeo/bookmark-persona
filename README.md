@@ -13,7 +13,7 @@
 <sub>Runs in your own Grok Bot · needs the X plugin · your data stays in your Bot</sub></p>
 
 <p align="center">
-  <a href="#license"><img src="assets/badges/license.svg" alt="License: MIT code, CC BY-NC 4.0 art" /></a>
+  <a href="#license"><img src="assets/badges/license.svg" alt="License: MIT" /></a>
   <a href="https://x.com/ItsOdeLeo"><img src="assets/badges/follow-x.svg" alt="Follow 欧的Leo (@ItsOdeLeo) on X" /></a>
   <a href="https://xhslink.com/m/18bjTTf180W"><img src="assets/badges/follow-xiaohongshu.svg" alt="Follow 欧的Leo on Xiaohongshu, ID: ItsOdeLeo" /></a>
 </p>
@@ -99,8 +99,7 @@ Grok Bot templates only carry text, so the Bot downloads `card.html`, `persona.j
 
 ## License
 
-- Code: MIT, see [`LICENSE`](LICENSE).
-- The 16 pet designs: CC BY-NC 4.0, see [`LICENSE-ART.md`](LICENSE-ART.md).
+MIT, see [`LICENSE`](LICENSE). It covers the code and the 16 pet designs.
 
 Four-letter types are used informally. Nicknames and art are original.
 
