@@ -20,7 +20,7 @@
 
 <p align="center"><strong>English</strong> · <a href="README.zh-CN.md">中文</a></p>
 
-Bookmark Persona is a Grok Bot template. It reads your X posts (the front stage) against your bookmarks and likes (the backstage) and turns the gap into a share card with two glossy pets.
+Bookmark Persona is a Grok Bot template, also packaged as a plugin. It reads your X posts (the front stage) against your bookmarks and likes (the backstage) and turns the gap into a share card with two glossy pets.
 
 Unofficial; not affiliated with xAI or X. Just for fun, not a personality test.
 
